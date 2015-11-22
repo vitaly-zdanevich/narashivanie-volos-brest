@@ -5,7 +5,7 @@
         <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <title>Наращивание волос в Бресте от Екатерины Ивановой</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
-        <script type="text/javascript" src="http://vk.com/js/api/openapi.js?121"></script>
+<!--         <script type="text/javascript" src="http://vk.com/js/api/openapi.js?121"></script> -->
     </head>
     <body>
         <h1>Наращивание волос в Бресте от Екатерины Ивановой</h1>
@@ -30,10 +30,28 @@
             <img src="images/kate.jpg" alt="Катя Иванова - мастер по наращиванию волос в Бресте, Беларусь" />
             <p>ИП: 291381777</p>
         </article>
-        <script type="text/javascript">VK.init({apiId: 3639547, onlyWidgets: true});</script>
+<!--         <script type="text/javascript">VK.init({apiId: 3639547, onlyWidgets: true});</script>
         <div id="vk_like"></div>
         <script type="text/javascript">
             VK.Widgets.Like("vk_like", {type: "mini", height: 24});
+        </script> -->
+        <div id="ok_shareWidget"></div>
+        <script>
+        !function (d, id, did, st) {
+          var js = d.createElement("script");
+          js.src = "https://connect.ok.ru/connect.js";
+          js.onload = js.onreadystatechange = function () {
+          if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+            if (!this.executed) {
+              this.executed = true;
+              setTimeout(function () {
+                OK.CONNECT.insertShareWidget(id,did,st);
+              }, 0);
+            }
+          }};
+          d.documentElement.appendChild(js);
+        }(document,"ok_shareWidget","http://vitaly-zdanevich.github.io/narashivanie-volos-brest/","{width:310,height:50,st:'oval',sz:45,ck:2}");
         </script>
+
     </body>
 </html>
