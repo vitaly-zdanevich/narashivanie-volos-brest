@@ -8,4 +8,8 @@ h1 {
 
 #photos img {
     width: 100%;
-};
+}
+
+article {
+    font-size: 5vw;
+}
