@@ -6,7 +6,8 @@ html {
 
 a {
     color: lightblue;
-}a:visited {
+}
+a:visited {
     color: pink;
 }
 
