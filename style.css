@@ -1,8 +1,16 @@
 html {
     font-family: 'Open Sans', sans-serif;
+    background: url('images/background.jpg');
+    color: #fff;
 }
 
-h1 {
+a {
+    color: lightblue;
+}a:visited {
+    color: pink;
+}
+
+h1, .center {
     text-align: center;
 }
 
