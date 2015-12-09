@@ -4,6 +4,14 @@ html {
     color: #fff;
 }
 
+h1 {
+    font-size: 3vw;
+}
+
+h1, .center {
+    text-align: center;
+}
+
 a {
     color: lightblue;
 }
@@ -11,8 +19,27 @@ a:visited {
     color: pink;
 }
 
+.discount {
+    font-weight: bold;
+    color: green;html {
+    font-family: 'Open Sans', sans-serif;
+    background: url('images/background.jpg');
+    color: #fff;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
 h1, .center {
     text-align: center;
+}
+
+a {
+    color: lightblue;
+}
+a:visited {
+    color: pink;
 }
 
 .discount {
@@ -25,11 +52,26 @@ h1, .center {
     width: 100%;
     height: 80%;
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 10px;
     object-fit: contain;
 }
 
 article, p, div {
     font-size: 3vw;
+    width: 100%;
+}
+}
+
+#photos img {
+    display: block;
+    width: 100%;
+    height: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+article, p, div {
+    font-size: 2vw;
     width: 100%;
 }
