@@ -75,3 +75,7 @@ article, p, div {
     font-size: 2vw;
     width: 100%;
 }
+
+footer {
+    margin-top: 19px;
+}
