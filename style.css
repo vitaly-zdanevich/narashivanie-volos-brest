@@ -30,11 +30,17 @@ a:visited {
 
 #photos img {
     display: block;
-    width: 80vw;
-    height: 77vw;
     margin: auto;
     margin-bottom: 10px;
     object-fit: contain;
+    width: 95%;
+/*     height: 21vw;   */
+}
+@media (min-width: 800px) {
+    #photos img {
+        width: 50vw;
+        height: 49vw  
+    }
 }
 
 footer {
