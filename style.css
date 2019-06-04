@@ -1,7 +1,7 @@
 html {
     font-family: 'Open Sans', sans-serif;
-    background: url('images/background.jpg');
-    color: #fff;
+    background: #fff;
+    color: #333;
 }
 
 body, p, div {
@@ -16,9 +16,6 @@ h1, .center {
     text-align: center;
 }
 
-a {
-    color: lightblue;
-}
 a:visited {
     color: pink;
 }
@@ -34,7 +31,6 @@ a:visited {
     margin-bottom: 10px;
     object-fit: contain;
     width: 95%;
-/*     height: 21vw;   */
 }
 @media (min-width: 800px) {
     #photos img {
