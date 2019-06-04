@@ -34,8 +34,7 @@ a:visited {
 }
 @media (min-width: 800px) {
     #photos img {
-        width: 50vw;
-        height: 49vw  
+        width: 90vw;
     }
 }
 
